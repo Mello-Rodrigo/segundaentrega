@@ -1,0 +1,230 @@
+/*colores del fonde*/
+
+.bg-blue{
+	background-color: #0a141d;
+}
+
+body{
+	font-family: 'berkshire Swash',sans-serif;
+	margin: 0;
+	background-color: #7295F9 ;
+}
+
+/*carousel*/
+.conteiner{
+	width: 100%;
+	height: 600px;
+	bottom: 20px;
+	position:  relative;
+}
+
+
+.conteiner h1{
+	font-size: 4rem;
+    color: #4E4C4C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.conteiner p{
+	font-size: 2rem;
+	color: #4E4C4C;
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	font-family: 'Amatic SC', cursive;
+}
+/*termina carousel*/
+
+/*footer*/
+.pie-pagina{
+	width: 100%;
+	background-color: #0a141d;
+}
+
+.pie-pagina .box-1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.pie-pagina .box-1 h2{
+	color: #FFFFFF;
+	margin-bottom: 25px;
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 3rem;
+	text-transform: capitalize;
+	font-family: 'Roboto Slab', serif;
+}
+
+.pie-pagina .box-1 p{
+	color: #efefef;
+	margin-bottom: 10px;
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 25px;
+	font-size: 15px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.pie-pagina .box-img h2{
+	color: #FFFFFF;
+	margin-bottom: 25px;
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 3rem;
+	text-transform: capitalize;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+.red-social{
+	display: flex;
+	justify-content: center;
+}
+
+.red-social a img{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+/* termina footer*/
+
+/*empieza contactos y envios*/
+.redes{
+	display: flex;
+	justify-content: center;
+}
+
+.redes a img{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+
+form{
+	width: 450px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+form h1{
+	font-family: 'Merriweather', serif;
+	font-size: 2rem;
+	text-align: center;
+	margin: 0;
+	color: #FFFFFF;
+	background: #8C37F5;
+}
+
+form legend{
+	font-family: 'Merriweather', serif;
+	font-size: 2rem;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	color: #FFFFFF;
+}
+
+form label{
+	font-family: 'Arima', cursive;
+	font-size: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+legend, label, input{
+	width: 70%;
+	margin-bottom: 20px ;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+} 
+
+h1{
+	font-size: 1.5rem;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Merriweather', serif;
+}
+
+/* termina contactos y envios*/
+
+/*ofertas*/
+.oferta{
+	margin: 150px auto;
+	width: 600px;
+}
+
+.oferta h1{
+	font-family: 'Nuosu SIL', serif;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	color: #FFFFFF;
+	background: #8C37F5;
+}
+
+.tabla{
+	background-color: #0a141d ;
+	text-align: left;
+	width: 100%;
+	padding: 2px;
+}
+
+.tabla th{
+	background: #7295F9;
+	border-bottom: solid 5px #4FD0F0;
+	color: #FFFFFF;
+}
+
+.tabla td{
+	color: #FFFFFF;
+}
+
+/*termina oferta*/
+
+/*lanzamientos*/
+.proximos-lanz{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.proximos-lanz h1{
+	font-size: 2.5rem;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.proximos-lanz .img-lanz{
+	width: 40%;
+	height: 40%;
+    margin: 0 auto;
+	background-color: #070606;
+}
+
+.proximos-lanz p{
+	font-size: 1.5rem;
+	font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*termina pagina de lanzamientos*/
+
+.contenedor img{
+	width: 100px;
+	height: 60px;
+}
