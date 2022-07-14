@@ -10,6 +10,8 @@ body{
 	background-color:$secondarycolor ;
 }
 
+//carousel
+
 .container{
 	width: 100%;
 	height: 600px;
@@ -77,3 +79,10 @@ body{
 	height: 50px;
 	margin: 5px;
 }
+
+//comienza contactos y envios 
+
+.redes{
+	display: flex;
+	justify-content: center;
+} 
