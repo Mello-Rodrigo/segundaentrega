@@ -2,9 +2,9 @@
   color: #0a141d; }
 
 body {
-  font-family: "berkshire Swash", sans-serif;
+  background-color: #7295F9;
   margin: 0;
-  background-color: #7295F9; }
+  font-family: "berkshire Swash", sans-serif; }
 
 .container {
   width: 100%;
@@ -12,17 +12,17 @@ body {
   bottom: 20px;
   position: relative; }
 
-h1 {
+.container h1 {
   font-size: 4rem;
-  color: #4E4C4C;
   position: absolute;
   top: 50%;
+  color: #4E4C4C;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0 0 8px;
   font-family: "Amatic SC", cursive; }
 
-p {
+.container p {
   font-size: 2rem;
   color: #4E4C4C;
   position: absolute;
@@ -34,14 +34,14 @@ p {
   width: 100%;
   background-color: #0a141d; }
 
-box-1 {
+.pie-pagina .box-1 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center; }
 
-box-1 h2 {
+.pie-pagina .box-1 h2 {
   color: #FFFFFF;
   margin-bottom: 25px;
   font-size: 2rem;
@@ -50,7 +50,7 @@ box-1 h2 {
   text-transform: capitalize;
   font-family: "Roboto Slab", serif; }
 
-box-1 p {
+.pie-pagina .box-1 p {
   color: #efefef;
   margin-bottom: 10px;
   max-width: 500px;
@@ -59,7 +59,7 @@ box-1 p {
   font-size: 15px;
   font-family: "Inconsolata", monospace; }
 
-box-img h2 {
+.pie-pagina .box-img h2 {
   color: #FFFFFF;
   margin-bottom: 25px;
   font-size: 2rem;
@@ -73,7 +73,7 @@ box-img h2 {
   display: flex;
   justify-content: center; }
 
-red-social a img {
+.red-social a img {
   width: 50px;
   height: 50px;
   margin: 5px; }
@@ -81,3 +81,96 @@ red-social a img {
 .redes {
   display: flex;
   justify-content: center; }
+
+.redes a img {
+  width: 50px;
+  height: 50px;
+  margin: 5px; }
+
+.form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+
+.form h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  color: #FFFFFF;
+  background: #8C37F5; }
+
+.form legend {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #FFFFFF; }
+
+.legend label input {
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+.h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Merriweather", serif; }
+
+.oferta {
+  margin: 100px auto;
+  width: 400px; }
+
+.oferta h1 {
+  font-family: "Nuosu SIL", serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #FFFFFF;
+  background: #8C37F5; }
+
+.tabla {
+  text-align: left;
+  width: 100%;
+  padding: 2px; }
+
+.tabla th {
+  color: #FFFFFF;
+  border-bottom: solid 5px #4FD0F0; }
+
+.tabla td {
+  color: #FFFFFF; }
+
+.proximos-lanz {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.proximos-lanz h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: #FFFFFF; }
+
+.proximos-lanz .img-lanz {
+  width: 40%;
+  height: 40%;
+  margin: 0 auto; }
+
+.proximos-lanz p {
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  color: #FFFFFF; }
+
+.contenedor img {
+  width: 100px;
+  height: 60px; }

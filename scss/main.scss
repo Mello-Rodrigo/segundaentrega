@@ -4,85 +4,223 @@
 	color: $color;
 }
 
-body{
-	font-family: $fontsprin;
-	margin: 0;
-	background-color:$secondarycolor ;
-}
+ body{
+ 	background-color: $secondarycolor;
+ 	margin: 0;
+ 	font-family: $fontsprin;
+ }
 
-//carousel
+ //carousel
 
-.container{
-	width: 100%;
+ .container{
+ 	width: 100%;
 	height: 600px;
 	bottom: 20px;
 	position:  relative;
-} h1{
-	font-size: 4rem;
-	color: $colorp;
-	position: absolute;
-    top: 50%;
+ } 
+
+ .container h1{
+ 	font-size: 4rem;
+ 	position: absolute;
+ 	top: 50%;
+    color: $colorpx;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0 0 8px;
     font-family: $secondaryfont;
-} p{
-	font-size: 2rem;
-	color: $colorp;
-	position: absolute;
-	top: 60%;
-	left: 35%;
-	font-family: $secondaryfont;
+ }
+
+ .container p{
+    font-size: 2rem;
+    color: $colorpx;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    font-family: $secondaryfont;
+ }
+
+ //termina carousel
+
+ //footer
+ .pie-pagina {
+    width: 100%;
+    background-color: $color;
+ }
+
+ .pie-pagina .box-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .pie-pagina .box-1 h2{
+    color: $boxcolor;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-transform: capitalize;
+    font-family: $fonts;
+ }
+
+ .pie-pagina .box-1 p{
+    color: $boxp;
+    margin-bottom: 10px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: $cuartafont;
+ }
+
+ .pie-pagina .box-img h2{
+    color: $boxcolor;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-transform: capitalize;
+    font-family: $fonts;
+    text-align: center;
+ }
+
+ .red-social{
+    display: flex;
+    justify-content: center;
+ }
+
+ .red-social a img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+ }
+
+ //termina footer
+
+ //empieza contactos y envios 
+
+ .redes{
+    display: flex;
+    justify-content: center;
+ }
+
+ .redes a img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+ }
+
+ .form{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+ }
+
+ .form h1{
+    font-family: $fontmerri;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    color: $boxcolor;
+    background: $bacolor;
+ }
+
+ .form legend{
+    font-family: $fontmerri;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: $boxcolor;
+ } 
+
+ .legend label input{
+    width: 70%;
+    margin-bottom: 20px ;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+ }
+
+.h1{
+   font-size: 1.5rem;
+    text-align: center;
+    color: $boxcolor;
+    font-family: $fontmerri;
 }
 
-//empiezafooter
+//termina contactos y envios
 
-.pie-pagina{
-	width: 100%;
-	background-color: $colorfott;
-} box-1{
-	 display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   text-align: center;
-} box-1 h2{
-	color: $boxcolor;
-	margin-bottom: 25px;
-	font-size: 2rem;
-	font-weight: 500;
-	line-height: 3rem;
-	text-transform: capitalize;
-	font-family: $fonts;
-} box-1 p{
-	color: $boxp;
-	margin-bottom: 10px;
-	max-width: 500px;
-	margin: 10px auto;
-	line-height: 25px;
-	font-size: 15px;
-	font-family: $cuartafont;
-} box-img h2{
-	color: $boxcolor;
-	margin-bottom: 25px;
-	font-size: 2rem;
-	font-weight: 500;
-	line-height: 3rem;
-	text-transform: capitalize;
-	font-family: $fonts;
-	text-align: center;
-} .red-social{
-	display: flex;
-	justify-content: center;
-} red-social a img{
-	width: 50px;
-	height: 50px;
-	margin: 5px;
+//ofertas
+
+.oferta{
+    margin: 100px auto;
+    width: 400px;
 }
 
-//comienza contactos y envios 
+.oferta h1{
+    font-family: $fontnu;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: $boxcolor;
+    background: $bacolor;
+}
 
-.redes{
-	display: flex;
-	justify-content: center;
-} 
+.tabla{
+    text-align: left;
+    width: 100%;
+    padding: 2px;
+}
+
+.tabla th{
+    color: $boxcolor;
+    border-bottom: solid 5px $lor;
+}
+
+.tabla td{
+    color: $boxcolor;
+}
+
+//termina ofertas
+
+//lanzamientos
+
+.proximos-lanz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proximos-lanz h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: $lanzfont;
+    color: $boxcolor;
+}
+
+.proximos-lanz .img-lanz{
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.proximos-lanz p{
+    font-size: 1.5rem;
+    font-family: $lanzfont;
+    text-align: center;
+    color: $boxcolor;
+}
+
+// termina lanzamientos
+
+.contenedor img{
+    width: 100px;
+    height: 60px;
+}
