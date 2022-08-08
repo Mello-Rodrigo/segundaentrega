@@ -51,9 +51,8 @@
   </div>
 </nav>
     <!-- termina nav -->
-
-    <h1>Comunicate con nosotros por nuestras redes</h1>
   <div class="redes">
+  <h1>Comunicate con nosotros por nuestras redes</h1>
   <a href="https://www.facebook.com/">
             <img src="img/facebook.png">
           </a>
@@ -67,21 +66,26 @@
   <main>
     <section>
     <!-- comienza form -->
-      <form action="contacto.php">
-            <fieldset>
-              <legend class="mensaje">O envianos un mensaje</legend>
-              <label for="name">Nombre</label>
-              <input type="text" id="name">
-              <label for="surname">Apellido</label>
-              <input type="text" id="surname">
-              <label for="asunto">Asunto</label>
-              <input type="text" id="asunto">
-                <br>
-                <label for="mensaje">Mensaje</label>
-              <textarea name="" id="mensaje"></textarea>
-              <input type="submit" value="Enviar">
-          </fieldset>
-    </section>
+    <div class="container">
+    <form class="row g-1 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Rodrigo" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Mello" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Asunto</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Reloj sin pilas" required>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </div>
+      </form>
+    </div>
+    
     <!-- termina form -->
 
   <!-- comienza footer -->
