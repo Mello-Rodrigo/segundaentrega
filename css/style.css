@@ -13,11 +13,11 @@ img {
   height: 50%;
   width: 100%; }
 
-h1 {
+.titulo {
   font-size: 4rem;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 40%;
   color: #4E4C4C;
   font-family: "Amatic SC", cursive; }
 
@@ -31,9 +31,7 @@ h1 {
 
 .pie-pagina {
   width: 100%;
-  background-color: #0a141d;
-  display: flex;
-  justify-content: space-between; }
+  background-color: #0a141d; }
 
 .box-1 h2 {
   display: flex;
@@ -74,6 +72,12 @@ h1 {
   height: 50px;
   margin: 5px; }
 
+.contacto {
+  width: 600px;
+  margin: auto;
+  background: #8C37F5;
+  height: 500%; }
+
 .redes {
   display: flex;
   justify-content: center; }
@@ -112,6 +116,16 @@ form {
   color: #FFFFFF;
   background: #8C37F5; }
 
+.cards {
+  top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+  font-family: var(--roboto-regular);
+  font-size: 13px;
+  padding-bottom: 25px; }
+
 .tabla {
   text-align: center;
   width: 100%; }
@@ -145,3 +159,7 @@ form {
   font-family: "Bebas Neue", cursive;
   text-align: center;
   color: #FFFFFF; }
+
+@media (min-width: 770px) {
+  .contacto {
+    height: 300px; } }
